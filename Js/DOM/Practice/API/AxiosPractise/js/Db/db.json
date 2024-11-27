@@ -1,0 +1,21 @@
+{
+  "users":[{
+    "id":"id",
+    "name":"name",
+    "surname":"surname",
+    "email":"name@gmail.com",
+    "favorites":[]
+  }
+    
+
+
+  ],
+  "products":[
+    {
+      "title":"productname",
+      "description":"test",
+      "image":"http//zadzud "
+
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "Karbonn",
+      "model": "Karbonn A3",
+      "operatingSystem": "Android 2.3.6",
+      "year": 2013,
+      "price": 2730,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987081"
+    },
+    {
+      "id": 1,
+      "brand": "Karbonn",
+      "model": "Karbonn A3",
+      "operatingSystem": "Android 2.3.6",
+      "year": 2013,
+      "price": 2730,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987081"
+    },
+    {
+      "id": 1,
+      "brand": "Karbonn",
+      "model": "Karbonn A3",
+      "operatingSystem": "Android 2.3.6",
+      "year": 2013,
+      "price": 2730,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987081"
+    },
+    {
+      "id": 1,
+      "brand": "Karbonn",
+      "model": "Karbonn A3",
+      "operatingSystem": "Android 2.3.6",
+      "year": 2013,
+      "price": 2730,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987081"
+    },
+    {
+      "id": 1,
+      "brand": "Karbonn",
+      "model": "Karbonn A3",
+      "operatingSystem": "Android 2.3.6",
+      "year": 2013,
+      "price": 2730,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987081"
+    },
+    {
+      "id": 1,
+      "brand": "Karbonn",
+      "model": "Karbonn A3",
+      "operatingSystem": "Android 2.3.6",
+      "year": 2013,
+      "price": 2730,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-13-pro-graphite-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072987081"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "huseynoooorrrrrspu",
+      "email": "sanan@gmail.com",
+      "password": "salamorrrrrospuhuseyn"
+    },
+    {
+      "username": "senan",
+      "email": "elekberovsenan0@gmail.com",
+      "password": "123",
+      "id": 2
+    }
+  ]
+}

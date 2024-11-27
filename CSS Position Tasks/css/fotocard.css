@@ -1,0 +1,62 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    width: 100%;
+    background-color: rgb(165, 156, 156);
+}
+
+.card{
+    height: 650px;
+    width: 600px;
+    border: 20px solid white;
+}
+
+.card-elems{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+}
+.card-img{
+    height: 400px;
+    width: 600px;
+}
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.hastag{
+    margin-top: 300px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+}
+span{
+    margin-top: 35px;
+}
+
+
+p{
+    margin-top: 30px;
+}
+
+

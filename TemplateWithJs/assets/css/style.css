@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: transparent;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+:root {
+    --top-bar-bgColor: #bc5148;
+    --social-media-iconColor:#000000;
+}
+
+.header {
+    transition: background-color 0.4s ease, box-shadow 0.3s ease, top 0.3s ease;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--top-bar-bgColor); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    opacity: 0.7;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+#top-bar {
+    background-color: var(--top-bar-bgColor);
+    max-width: 100%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar-elements {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.social-media-list {
+    
+    width: 200px;
+}
+
+.social-media-list>li {
+    display: flex;
+    gap: 40px;
+    
+
+}
+.social-media-accounts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media-list>li>a {
+    color: var(--social-media-iconColor);
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-sponsor{
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.login{
+    width: 50px;
+    text-align: center;
+    background-color: #f4b214;
+}
+
+
+/* HEADER */
+
+.header{
+    height: 80px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header-elements{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand>h1{
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.nav-items-list{
+    display: flex;
+    gap: 50px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.slider{
+    height:700px;
+    position: relative;
+    max-width: 100%;
+}
+.slider-imgages{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-imgages>img{
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
+
+.left-right-hero{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: none;
+}
+
+
+/* dots */
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color:red;
+}
+
+
+.slider-content{
+    font-size: 20px;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.slider-content>button{
+    padding: 20px;
+    width: 150px;
+    border: none;
+    background-color: var(--top-bar-bgColor);
+    color: white;
+    border-radius: 5px;
+}
+
+.faq{
+    min-height:600px ;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-wrapper{
+    height: 500px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.faq-img{
+    min-height:500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.faq-img>img{
+    height: 70%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.faq-img>button{
+    width: 150px;
+    padding: 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--top-bar-bgColor);
+    color: white;
+}
+.faq-accardion{
+    min-height: 400px;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    gap: 20px;
+    width: 500px;
+}
+
+.accardion-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.accordion {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.accordion-header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+}
+
+.accordion-item:last-child {
+    border-bottom: none;
+}
+
+.accordion-header .arrow {
+    transition: transform 0.3s ease;
+}
+
+.accordion-header.active .arrow {
+    transform: rotate(180deg); 
+}
+
+
+
+.children-cards{
+    display: flex;
+    justify-content: center;
+    min-height: 1000px;
+
+
+}
+
+
+.children-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 70%;
+}
+
+#output {
+    width: 100%;
+    min-height: 400px;
+
+
+}
+
+
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 800px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    width: 80%;
+}
+
+
+input[type="text"] {
+    width: 80%;
+}
+
+
+input[type="number"] {
+    width: 80%;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

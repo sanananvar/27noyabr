@@ -1,0 +1,66 @@
+
+
+
+
+.feature-card {
+    width: 300px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 8px rgba(171, 43, 147, 0.808);
+
+}
+
+.feature-tag {
+    background-color: #f0f5ff;
+    color: #7367f0;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.feature-card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6e6b7b;
+    margin-bottom: 24px;
+}
+
+.learn-more-button {
+    background-color: #7367f0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #6256e0;
+}
+
+
+/* gradient style */
+
+
+.gradient-div{
+    box-shadow: 0 8px 16px rgba(71, 19, 175, 0.808);
+
+    margin: 40px;
+    height:200px;
+    width: 200px;
+    background-image: linear-gradient(to bottom, #cb4506, #1488ba,#6256e0)
+    
+}

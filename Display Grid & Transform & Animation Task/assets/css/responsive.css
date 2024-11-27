@@ -1,0 +1,143 @@
+
+
+@media (max-width:576px){
+
+    /* header */
+
+    .navbar{
+        flex-direction: row-reverse;
+    }
+    .navbar h2{
+        display: none;
+    }
+    .navbar i{
+        font-size: 15px;
+        display: flex !important;
+    }
+    .nav-right i{
+        display: none;
+    }
+
+    .nav-right .log{
+        display: none !important;
+    }
+
+    .hero h1{
+        font-size: 120px !important;
+    }
+
+    /* header end */
+
+
+    /* product */
+
+
+    .product-card:not(.not){
+        display: none !important;
+    }
+
+
+    /* product end */
+
+
+    /* blog */
+
+    .blog-elems{
+        align-items: center !important;
+        gap: 40px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .blog-elem{
+        align-items: center !important;
+    }
+    .waste{
+        text-align: center;
+        font-size: 50px !important;
+    }
+    .dedeng{
+        height: 300px !important;
+        width: 300px !important;
+    }
+
+    /* blog end */
+
+    /* collection */
+    .collection-elems{
+        height: 90% !important;
+
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    .collection-elem{
+        height: 400px !important;
+    }
+
+    .collection-container{
+        height: 1400px !important;
+    }
+
+    /* collection end */
+
+    /* about */
+
+    .svg{
+        flex-wrap: wrap !important;
+
+        width: 350px !important;
+    }
+
+
+
+    .about-container{
+        gap: 100px !important;
+    }
+    .about-container h2{
+        font-size: 50px !important;
+    }
+
+    .txt{
+        width: 500px !important;
+    }
+
+
+    /* about end */
+
+    /* general */
+    .general-container{
+        height: 500px !important;
+    }
+
+    .general-container h1{
+        font-size: 50px !important;
+    }
+
+    /* general end */
+
+    /* social */
+    .social-img:not(.ff){
+        display: none !important;
+    }
+
+
+    .subscription-elems{
+        height: 100% !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .subscription{
+        height: 1200px !important;
+    }
+
+    /* social end */
+
+
+    .footer-container ul{
+        display: none !important;
+    }
+
+}

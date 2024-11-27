@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 576px) {
+    .list{
+        display: none;
+    }
+    .baselogo{
+        max-width: 80%;
+    }
+    span{ 
+        top: 0px !important;
+        left: 0px !important;  
+    }
+   
+}
+
+@media (min-width:576px) and (max-width: 768px) {
+    .list{
+        display: none;
+    }
+    .baselogo{
+        max-width: 80%;
+    }
+    .project-imgs{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }  
+}
+
+@media (min-width:768px) and (max-width: 992px){
+    .list{
+        display: block;
+    }
+    .baselogo{
+        max-width: 80%;
+    }
+    .cards{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important; 
+    }
+    .project-imgs{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 33%;
+    }  
+
+
+}
