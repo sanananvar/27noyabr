@@ -7,7 +7,7 @@ function GetLocalId() {
     if (userId) {
         GetDataById(`${BaseUrl}/users`, userId)
             .then(res => {
-                let userName = res.data.userName
+                let userName = res.data.username
                 console.log(userName);
                 
                 auth.innerHTML = `
@@ -53,24 +53,11 @@ function ShowProducts(products) {
             ${product.price}</p>
             ${product.operatingSystem}</p>
 
-            <a href="#" class="btn btn-primary" data-id=${product.id}>details</a>
+            <a href="./details.html?id=${product.id}" class="btn btn-primary" data-id=${product.id}>details</a>
             <button class="btn btn-outline-danger" data-id=${product.id}><i class="fa-solid fa-heart"></i></button>
           </div>
         </div>
         `
-        // let favBtns = document.querySelectorAll(".fav")
-        // favBtns.forEach(favBtn => {
-        //     favBtn.addEventListener("click", () => {
-        //         let userInfo = JSON.parse(localStorage.getItem("userInfo"))
-        //         if (!userInfo) {
-        //             alert("login olmadiginiz ucun wishliste mehsul ata bilmersiz")
-        //         } else {
-        //             let prodId = favBtn.getAttribute("data-id")
-        //             let userId = userInfo
-        //             AddFavorites(userId, prodId)
-        //         }
-        //     })
-        // })
     });
 }
 GetProducts()
